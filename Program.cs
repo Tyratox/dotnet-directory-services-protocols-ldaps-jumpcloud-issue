@@ -40,6 +40,6 @@ if (useTls)
 
 Console.WriteLine("bind");
 
-connection.Bind(/*credentials*/);
+connection.Bind();
 
 Console.WriteLine("yay");
